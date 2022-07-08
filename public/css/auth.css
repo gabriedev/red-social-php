@@ -1,0 +1,172 @@
+.background_custom_design {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    width: 70%;
+    position: relative;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.over_background {
+    top: 80px;
+    left: 170px;
+    position: absolute;
+    animation: floating 1s infinite alternate ease-in-out;
+}
+
+.container-modals-forms {
+    width: 100%;
+    overflow: hidden;
+}
+
+.over_background img{
+    width: 70%;
+}
+
+.switch_form {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+
+.login_switch {
+    width: 50%;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.register_switch {
+    width: 50%;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.activate_switch {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.container_auth {
+    width: 450px;
+    position: absolute;
+    top: 130px;
+    right: 80px;
+    padding: 10px;
+    
+}
+
+.form-custom {
+    width: 80%;
+}
+
+.header_form img{
+    width: 20%;
+}
+
+.form-group {
+    margin: 35px 0;
+    display: flex;
+    position: relative;
+}
+
+.labelInput {
+    position: absolute;
+    color: rgb(75, 75, 75);
+}
+
+.animateLabel {
+    top: -20px;
+    font-weight: 200;
+    color: var(--main-color);
+}
+
+.form-icon {
+    left: -20px;
+    position: absolute;
+}
+
+.form-icon i {
+    color: var(--main-color);
+}
+
+.form-input {
+    width: 100%;
+    position: relative;
+}
+
+.button-group {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid var(--main-color);
+    background-color: transparent;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+.btn {
+    width: 80%;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.btn-auth {
+    background-color: var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slideRight {
+    animation: slideRight 1s;
+}
+
+.slideLeft {
+    animation: slideLeft 1s;
+}
+
+.alert-dan {
+    margin: 10px 0;
+}
+
+@keyframes slideRight {
+    to {
+        margin-right: 800px;
+    }
+}
+
+@keyframes slideLeft {
+    to {
+        margin-right: -800px;
+    }
+}
+
+@keyframes floating {
+    from {
+        top: 75px;
+    }
+
+    to {
+        top: 85px;
+    }
+}
